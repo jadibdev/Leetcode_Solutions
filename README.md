@@ -21,7 +21,7 @@ When I encountered this Leetcode problem, I initially thought of creating an add
 
 This approach would lead to O(n^2) complexity as we must step through each element of nums then through each element of the newly created array to check whether a value is included.
 
-A better approach would be to use a Javascript Set to store the unique values as it provides O(1) complexity to look up values.
+A better approach would be to use a Javascript Set to store the unique values as it provides O(1) look up time complexity.
 
 ### Solution steps
 - Create a new Set to store unique values
