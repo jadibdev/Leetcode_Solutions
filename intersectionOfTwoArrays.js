@@ -18,7 +18,7 @@ var intersect = function(nums1, nums2) {
     return result;
 };
 
-// Two pointer implementation
+// Two pointer Implementation
 var intersect = function(nums1, nums2) {
     nums1.sort((a, b) => a - b);
     nums2.sort((a, b) => a - b);
