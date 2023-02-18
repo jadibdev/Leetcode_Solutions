@@ -34,7 +34,7 @@ Instead I decided to use two different approaches:
 - Initialize two pointers p1 and p2 to the beginning of both arrays.
 - Initialize an empty array result to hold the intersection of the two arrays.
 - While p1 is less than the length of nums1 and p2 is less than the length of nums2, do the following:
-    a. If the value at index p1 of nums1 is equal to the value at index p2 of nums2, add the value to the result array, and increment both pointers.
-    b. Otherwise, if the value at index p1 of nums1 is less than the value at index p2 of nums2, increment p1.
-    c. Otherwise, if the value at index p1 of nums1 is greater than the value at index p2 of nums2, increment p2.
+    - a. If the value at index p1 of nums1 is equal to the value at index p2 of nums2, add the value to the result array, and increment both pointers.
+    - b. Otherwise, if the value at index p1 of nums1 is less than the value at index p2 of nums2, increment p1.
+    - c. Otherwise, if the value at index p1 of nums1 is greater than the value at index p2 of nums2, increment p2.
 - Return the result array, which contains the intersection of nums1 and nums2.
