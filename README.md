@@ -22,11 +22,11 @@ Instead I decided to use two different approaches:
 - Create an empty array result to hold the common elements of nums1 and nums2
 - Create a new Map object to store the elements of nums1 and their frequencies.
 - Loop through each element of nums1:
-    a. If the Map does not have the current element, add it with a frequency of 1.
-    b. If the Map already has the current element, increment its frequency by 1.
+    - a. If the Map does not have the current element, add it with a frequency of 1.
+    - b. If the Map already has the current element, increment its frequency by 1.
 - Loop through each element of nums2:
-    a. Check if the Map contains the current element and its frequency is greater than 0.
-    b. If both conditions are true, add the current element to the result array and decrement its frequency in the Map.
+    - a. Check if the Map contains the current element and its frequency is greater than 0.
+    - b. If both conditions are true, add the current element to the result array and decrement its frequency in the Map.
 - Return the result array containing the common elements.
 
 ### Two Pointer Implementation steps:
