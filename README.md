@@ -11,7 +11,7 @@ Output: [4,9]
 Explanation: [9,4] is also accepted.
 
 ### Reasoning
-My initial thought was to use a brute force approach with nested for loops to iterate over nums1 and nums2 respectively then push smaller number to a result array, this approach worked but it did not take into account that input arrays may not be sorted and the fact there could be duplicates, so it failed test cases because of thats. 
+My initial thought was to use a brute force approach with nested for loops to iterate over nums1 and nums2 respectively then push smaller number to a result array, this approach worked but it did not take into account that input arrays may not be sorted and the fact there could be duplicates, so it failed test cases because of that. 
 
 Instead I decided to use two different approaches: 
 - A hashmap to store all elements from nums1 as keys and all their occurrences count as values, check if an element from nums2 is present in hashmap, if yes push it to the result array.
